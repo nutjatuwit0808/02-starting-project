@@ -43,6 +43,7 @@ export default function Posts({ posts }) {
       const updatedPostIndex = prevPosts.findIndex(
         (post) => post.id === updatedPostId
       );
+      
       if(updatedPostIndex === -1) {
         return prevPosts;
       }
